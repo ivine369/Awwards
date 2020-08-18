@@ -28,7 +28,7 @@ SECRET_KEY = 'tu%(m_#4fms0t$xa@=da1=jz(wf^lm2a936&kw1xg560r!w1mm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'awwards.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'awwards.herokuapp.com', '127.0.0.1','conferral.herokuapp.com']
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
