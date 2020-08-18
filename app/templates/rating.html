@@ -1,0 +1,23 @@
+
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-3 col-xs-2"></div>
+		<div class="col-md-4 col-sm-6 col-xs-8">
+			<h2 class="text-center">Rate </h2>
+			<br>
+			<form style="border:white" action="{% url 'review' project.id %}" method="post" enctype="multipart/form-data">
+				{%csrf_token%}
+
+				<i><span class="rate-form"> {% bootstrap_form form%}
+              <input type="submit" class="btn btn-primary btn-sm" value="Next"></span></i>
+			</form>
+		</div>
+		<br>
+		<div class="col-md-4 col-sm-3 col-xs-2"></div>
+	</div>
+</div>
+{% endblock %}
