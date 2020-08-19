@@ -8,7 +8,6 @@ An application will allow a user to post a project he/she has created and get it
 An application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
 
 ### Setup/Installation Requirements
-
 . git clone 
 . cd awwards
 . pip install -r requirements.txt
